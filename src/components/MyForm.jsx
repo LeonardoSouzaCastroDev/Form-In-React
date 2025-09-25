@@ -68,6 +68,7 @@ export const MyForm = ({userName, userEmail}) => {
             onChange={(e) => setRole(e.target.value)} 
             value={role}
           >
+            <option hidden={true} value="default"></option>
             <option value="user">Usuário</option>
             <option value="editor">Editor</option>
             <option value="admin">Admin</option>
