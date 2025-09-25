@@ -67,6 +67,7 @@ export const MyForm = ({userName, userEmail}) => {
             name="role" 
             onChange={(e) => setRole(e.target.value)} 
             value={role}
+            style={{paddingRight: "50px"}}
           >
             <option hidden={true} value="default"></option>
             <option value="user">Usuário</option>
